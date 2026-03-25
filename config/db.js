@@ -3,7 +3,7 @@ const { Sequelize } = require("sequelize");
 const sequelize = new Sequelize(
   "bibliotheque_db", // nom de ta base
   "root",            // user
-  "1234",            // mot de passe (TRÈS IMPORTANT)
+  "",                // mot de passe vide par défaut sur XAMPP
   {
     host: "localhost",
     dialect: "mysql",
